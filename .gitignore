@@ -1,0 +1,15 @@
+# dependencies — reinstalled from the lock file
+node_modules/
+
+# build output — produced by `npm run build`
+dist/
+
+# runtime data — belongs in a volume, never in git or an image
+data/
+
+# local secrets — real values never leave your machine
+.env
+
+# logs
+*.log
+npm-debug.log*
